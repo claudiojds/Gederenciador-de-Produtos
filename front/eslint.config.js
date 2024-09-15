@@ -23,6 +23,10 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
+      "@typescript-eslint/no-explicit-any": "off", // Desativa a regra que proíbe 'any'
+      "react/prop-types": "off", // Desativa verificação de prop-types em projetos TS
     },
   },
+  // 
+
 )
